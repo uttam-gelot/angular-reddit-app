@@ -1,0 +1,25 @@
+<div class="container" >
+    <div class="row">
+        <div class="col-xs-3 vote">
+            <ul type = "none">
+                <li style="font-size: 50px;" > {{ article.votes }} </li>
+                <li style="font-size: 30px; font-weight: bold;" > {{ "Points" }} </li>
+            </ul>
+        </div>
+        <div class="col-xs-5 detail">
+            <ul type = "none">
+                <li style="font-size: 40px;" > {{ article.title }} </li>
+                <li style="font-size: 30px;">
+                    <a href=" {{ article.link }} " target="_blank"> {{ article.link }} </a>
+                </li>
+                <li style="font-size: 30px;">
+                    <p> 
+                        <button (click)="voteUp()" class="btn btn-success"> &uarr; Upvote</button>
+                        <button (click)="voteDown()" class="btn btn-danger" style="margin-left: 20px;"> &darr; Downvote</button>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+</div>

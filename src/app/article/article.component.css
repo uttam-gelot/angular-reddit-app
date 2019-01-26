@@ -1,0 +1,23 @@
+div
+{
+    margin: 5px 10px;
+}
+.vote
+{
+    align-self: center;
+    margin-right: 400px;
+}
+.detail
+{
+    align-self: center;
+}
+hr 
+{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
